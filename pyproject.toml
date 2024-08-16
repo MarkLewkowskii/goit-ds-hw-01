@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "personal-assistant-poetry"
+version = "0.1.0"
+description = "Personal assistant project for GoIT course"
+authors = ["Maryna Dudik <marina27043@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
