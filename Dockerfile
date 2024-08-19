@@ -20,5 +20,8 @@ RUN poetry install --no-root
 # Копіюємо весь проект в контейнер
 COPY . /app
 
+# Make port 80 available to the world outside this container
+EXPOSE 80
+
 # Визначаємо команду для запуску вашого додатку
 CMD ["python", "main.py"]
